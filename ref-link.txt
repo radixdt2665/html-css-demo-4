@@ -1,0 +1,22 @@
+https://codepen.io/alexdevero/pen/rNKzoN
+https://codepen.io/Gibbu/pen/gNdMXY
+https://codepen.io/karlo-stekovic/pen/mQLEgP
+
+ <div class="dropdown">
+                            <a href="#" class="js-link primary-color font-bold ">EN <i class="fa fa-chevron-down"></i></a>
+                            <ul class="js-dropdown-list">
+                              <li>Language 1</li>
+                              <li>Language 2</li>
+                              <li>Language 3</li>
+                            </ul>
+                        </div>
+
+                        .main-navbar .dropdown  a {display: block;padding: 0.5em;color: var(--black);text-decoration: none;}
+  .main-navbar .dropdown  a:focus, .main-navbar .dropdown a:hover {background: #ecf0f1;}
+  .main-navbar .dropdown  a:active {background: #fbfcfc;}
+  .main-navbar .dropdown  .fa {float: right;}
+  .main-navbar .dropdown  ul {display: none;border-top: 0.1em solid #c0cdd1;}
+  .main-navbar .dropdown  li {padding: 0.5em;cursor: pointer;}
+  .main-navbar .dropdown  li:not(:first-child) {border-top: 0.1em dashed #dde4e6;}
+  .main-navbar .dropdown  li:focus,.main-navbar .dropdown li:hover {background: #ecf0f1;}
+  .main-navbar .dropdown  li:active {background: #fbfcfc;}
